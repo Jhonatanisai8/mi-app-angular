@@ -2,10 +2,13 @@
 <h1>Hola a todos</h1>
 <p>Bienvenido {{ nombreUsuario }}</p>
 <input type="text" [value]="nombreUsuario" />
-<label for="">Ingrese su nombre:</label>
 <input type="text" [placeholder]="valorPlaceHolder" />
+<label for="">Ingrese su nombre:</label>
 <br />
 <h1>Numero: {{ numero }}</h1>
 <button (click)="aumentarNumero()">Aumentar numero</button>
 <br />
 <button (click)="disminuirNumero()">Disminuir numero</button>
+<br />
+<h1>Nombre de Usuario: {{ nombreUsuario }}</h1>
+<input type="text" [(ngModel)]="nombreUsuario" />
