@@ -11,4 +11,11 @@ import { Header } from './components/header/header';
 export class App {
   nombreUsuario: string = 'Jhoel';
   valorPlaceHolder: string = 'Ingresa aqui tu nombre';
+  numero: number = 0;
+  aumentarNumero() {
+    this.numero++;
+  }
+  disminuirNumero() {
+    this.numero--;
+  }
 }
