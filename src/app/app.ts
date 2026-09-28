@@ -9,5 +9,6 @@ import { Header } from './components/header/header';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('mi-app-angular');
+  nombreUsuario: string = 'Jhoel';
+  valorPlaceHolder: string = 'Ingresa aqui tu nombre';
 }
